@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Api_Breaking_Bad.js"></script>
+    <title>Api avec Jquery</title>
+    <style>
+       #conteneur{
+           margin-top: 100px;
+            margin-left: 300px;
+            font-size: 25px;
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+<label>vous cherchez l episode numero : </label><input id="boutton2" type="text" style="width: 20px" oninput="episode()">&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="submit" id="bouton1" value="Episodes Breaking_bad" onclick="getEpisode()">
+<br><br><br><br><br>
+ <div id="conteneur"> Vous cherchez l' episode : &nbsp<span class="lien"></span></div>
+</body>
+</html>
