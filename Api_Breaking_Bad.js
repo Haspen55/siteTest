@@ -1,5 +1,4 @@
 
-/// voir https://www.youtube.com/watch?v=A87bvZgkaOU
 var x;
 function episode () {
  x =  document.getElementById('boutton2').value;
